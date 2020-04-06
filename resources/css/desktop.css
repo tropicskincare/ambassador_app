@@ -1,0 +1,81 @@
+@media only screen and (min-width: 750px) {
+
+	/*	Containers
+	-----------------------------------------------*/
+
+	.container {
+		max-width: 1250px;
+	}
+
+	.container--small {
+		max-width: 400px;
+	}
+
+	.container--medium {
+		max-width: 1000px;
+	}
+
+
+	/*	Table
+	-----------------------------------------------*/
+
+	.usernamelist {
+		border-top: 1px solid #EBEBEB;
+	}
+
+	.usernamelist__row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		border: 0;
+		border-bottom: 1px solid #EBEBEB;
+		margin: 0;
+		padding: 10px 0;
+	}
+
+	.usernamelist__row__column {
+		margin: 0;
+	}
+
+
+	/*	Cards
+	-----------------------------------------------*/
+
+	.cards {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.cards__item {
+		flex: 0 1 49.5%;
+		margin: 1px;
+	}
+
+
+	/*	Layout
+	-----------------------------------------------*/
+
+	.layout {
+		display: flex;
+	}
+
+	.layout__pane {
+		margin-right: 30px;
+	}
+
+	.layout .layout__pane:last-child {
+		margin-right: 0;
+	}
+
+	.layout__pane--onethirds {
+		flex: 1;
+	}
+
+	.layout__pane--twothirds {
+		flex: 2;
+	}
+
+
+
+
+}
